@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap');
+#generalmente{
+    margin: 0%;
+    padding: 0%;
+    border: 5px solid #000;
+}
+
+header {
+    font-family: 'Covered By Your Grace', cursive;
+   background: rgb(206, 204, 204);
+   color: black;
+   width: 100%;
+   height: 20vh;
+}
+header h1 .MENTE1 { 
+    font-family: 'Rubik Mono One', sans-serif;
+    background: rgb(206, 204, 204);
+    color: green;
+}
+
+#principal1 {
+    width: 45%;
+    height: 20vh;
+    float: left;
+}
+
+#principal2 {
+    width: 45%;
+    float: right;
+    height: 20vh;
+}
+#principal3 {
+    width: 30%;
+    float: left;
+    text-align: justify;
+}
+
+
+#global {
+    width: 70%;
+    height: 25vp;
+    float: left;
+    background: green;
+    border: 5px solid #000;
+}
+    
+aside {
+    width: 60%;
+    height: 95vh;
+    float: left;
+}
+aside img {
+    width: 100%;
+    height: 90vh;
+    display: block;
+    margin: 10%;
+}

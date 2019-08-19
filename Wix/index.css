@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    background: url(./Imagenes/parallax2.jpg);
+    background-attachment: fixed;
+}
+
+.sec2 {
+    background: url(./Imagenes/parallax1.jpg);
+    background-attachment: fixed;
+}
+
+.sec3 {
+    background: url(./Imagenes/parallax4.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-sizing: cover;
+    background-position: center;
+}
+
+.circulo {
+    width: 10%;
+    height: 20%;
+    background: #f3f3f3;
+    border-radius: 100%;
+    position: absolute;
+    top: 5%;
+    left: 45%;
+}
+
+.circulo h5 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    left: 15%;
+    margin: 0 auto;
+    display: flex;
+    top: 30%;
+    justify-content: space-between;
+    position: absolute;
+    cursor: pointer;
+}
+
+#JU {
+    color: aqua;
+    position: absolute;
+    top: 25vh;
+    left: 40%;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: 'Pacifico', cursive;
+    color: aqua;
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+}
+
+.imagenes>div {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 33vh;
+}
+
+.imagenes>div>span {
+    display: block;
+    width: 50%;
+    height: 30vh;
+    margin: 0 5px;
+    position: relative;
+}
+
+.imagenes>div>span img {
+    width: 100%;
+    height: 100%;
+}
+
+.imagenes>div>span span {
+    position: absolute;
+    top: calc(50% - (18px / 2));
+    left: calc(50% - (57.33px / 2));
+    font-size: 20px;
+    display: none;
+}
+
+.imagenes>div>span:hover {
+    opacity: .8;
+    z-index: 2;
+}
+
+.imagenes>div>span:hover span {
+    display: block;
+}
+
+.secText {
+    width: 100%;
+    height: 60vh;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    font-size: 60px;
+    color: #000;
+}
+
+.secText p {
+    font-size: 20px;
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    height: 55vh;
+    left: 10%;
+    background: #f3f3f3;
+    position: absolute;
+    justify-content: center;
+    font-size: 40px;
+}
+
+input {
+    color: #000;
+    position: absolute;
+    justify-content: center;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+}
+
+.tamaño {
+    width: 100%;
+    height: 10%;
+}
+
+.tamaño2 {
+    width: 100%;
+    height: 30%;
+    text-align: left;
+}
+
+.send {
+    left: 85%;
+    width: 15%;
+    height: 10%;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(78, 77, 77);
+}
+
+h6 {
+    font-size: 20px;
+    margin: 0;
+}

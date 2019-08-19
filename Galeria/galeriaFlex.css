@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor>div {
+    width: 80%;
+    height: 40%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+
+.contenedor>div>img {
+    display: block;
+    width: 24%;
+    height: 80%;
+    border: 4px solid #f4f4f4;
+    opacity: .5%;
+}
+.contenedor>div>img:hover {
+    opacity: 1%;
+}
