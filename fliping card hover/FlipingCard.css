@@ -1,0 +1,107 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: goldenrod; */
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+
+}
+
+.Card .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+    backface-visibility: hidden;
+}
+
+.Card .front img {
+    width: 100%;
+}
+
+.Card:hover .front {
+    transform: rotateX(-180deg);
+}
+
+.Card .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+    backface-visibility: hidden;
+
+}
+
+.Card:hover .back {
+    transform: rotateX(0deg);
+}
+
+.Card .back .details {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.Card .back .details h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.Card .back .details h2 span {
+    color: maroon;
+    font-size: 20px;
+}
+
+.Socialicons {
+    padding: 10px 0px;
+    
+}
+.Socialicons a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: #262626;
+    color: wheat;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.Socialicons a .fa {
+    line-height: 36px;
+}
+
+.Card .back::before {
+    contain: '';
+    position: absolute;
+    top: 0;
+    /* left: -50%; */
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+}
+
+
