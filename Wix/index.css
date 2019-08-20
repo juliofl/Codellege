@@ -15,17 +15,19 @@ section {
 }
 
 .sec1 {
-    background: url(./Imagenes/parallax2.jpg);
+    background: url(./img/kirito.jpeg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sec2 {
-    background: url(./Imagenes/parallax1.jpg);
+    background: url(./img/wix11.jpg);
     background-attachment: fixed;
 }
 
 .sec3 {
-    background: url(./Imagenes/parallax4.webp);
+    background: url(./img/mercedes.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     box-sizing: cover;
@@ -35,7 +37,7 @@ section {
 .circulo {
     width: 10%;
     height: 20%;
-    background: #f3f3f3;
+    background: aquamarine;
     border-radius: 100%;
     position: absolute;
     top: 5%;
@@ -65,7 +67,7 @@ a {
 }
 
 #JU {
-    color: aqua;
+    color: black;
     position: absolute;
     top: 25vh;
     left: 40%;
@@ -74,7 +76,7 @@ a {
 
 h4 {
     font-family: 'Pacifico', cursive;
-    color: aqua;
+    color: black;
     padding: 0;
     margin: 0;
     font-size: 60px;
